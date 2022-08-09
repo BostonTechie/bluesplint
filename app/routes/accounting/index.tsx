@@ -5,7 +5,12 @@ import type { ActionFunction, LoaderFunction } from "@remix-run/node"
 
 type LoaderData = {
   data: NonNullable<Awaited<ReturnType<typeof getDataItems>>>;
-  
+
+}
+
+export const loader: LoaderFunction = async () => {
+
+
 }
 
 

@@ -1,4 +1,4 @@
-import type { hive } from "~db/server" 
+import type { hive } from "@prisma/client" 
             
 import { prisma } from "~/db.server";
 
