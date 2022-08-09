@@ -132,7 +132,7 @@ export default function Index() {
               </a>
             ))}
           </div>
-          <div> </div>
+          <div> what up buttercup</div>
         </div>
       </div>
     </main>
