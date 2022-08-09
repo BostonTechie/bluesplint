@@ -1,4 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
+import { Prisma } from "~/db.server"
+
+
 const people = [
   { name: 'Lindsay Walton', title: 'Front-end Developer', email: 'lindsay.walton@example.com', role: 'Member' },
   // More people...
@@ -152,7 +155,7 @@ export default function Example() {
                 </tbody>
               </table>
             </div>
-            <p>where am i</p>
+          
           </div>
         </div>
       </div>

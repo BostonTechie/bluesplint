@@ -32,7 +32,7 @@ model Note {
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
-model hive {
+model Hive {
   dbid             Int       @id @default(autoincrement())
   Asset_Type       String?   @map("Asset Type")
   Asset            String?

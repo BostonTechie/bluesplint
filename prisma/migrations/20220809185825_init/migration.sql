@@ -27,7 +27,7 @@ CREATE TABLE "Note" (
 );
 
 -- CreateTable
-CREATE TABLE "hive" (
+CREATE TABLE "Hive" (
     "dbid" SERIAL NOT NULL,
     "Asset Type" TEXT,
     "Asset" TEXT,
@@ -46,7 +46,7 @@ CREATE TABLE "hive" (
     "Transaction ID" TEXT,
     "Note" TEXT,
 
-    CONSTRAINT "hive_pkey" PRIMARY KEY ("dbid")
+    CONSTRAINT "Hive_pkey" PRIMARY KEY ("dbid")
 );
 
 -- CreateIndex
