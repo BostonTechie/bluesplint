@@ -2,6 +2,7 @@ import { Link } from "@remix-run/react";
 
 import { useOptionalUser } from "~/utils";
 
+
 export default function Index() {
   const user = useOptionalUser();
   return (
@@ -131,6 +132,7 @@ export default function Index() {
               </a>
             ))}
           </div>
+          <div> what up buttercup</div>
         </div>
       </div>
     </main>

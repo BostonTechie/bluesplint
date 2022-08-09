@@ -47,6 +47,8 @@ export default function NoteDetailsPage() {
           Delete
         </button>
       </Form>
+
+      where am i
     </div>
   );
 }

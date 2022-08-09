@@ -40,6 +40,14 @@ async function seed() {
     },
   });
 
+  await prisma.hive.create({
+    data: {
+      dbid : 1,
+      Asset_Type: "Hello, world!",
+      
+    },
+  });
+
   console.log(`Database has been seeded. 🌱`);
 }
 
