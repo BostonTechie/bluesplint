@@ -1,6 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Prisma } from "~/db.server"
-import { getDataItems } from "~models/data.server"
+import { getDataItems } from "~/models/data.server"
 import type { ActionFunction, LoaderFunction } from "@remix-run/node"
 
 type LoaderData = {
